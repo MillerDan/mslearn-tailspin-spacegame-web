@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <None Update="templates\build.yml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 </Project>
