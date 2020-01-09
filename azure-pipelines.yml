@@ -39,11 +39,11 @@ steps:
     command: 'restore'
     projects: '**/*.csproj'
 
-- template: Tailspin.SapceGame.Web/Templates/build.yml
+- template: Tailspin.SpaceGame.Web/Templates/build.yml
   parameters:
     buildConfiguration: 'Debug'
 
-- template: Tailspin.SapceGame.Web/Templates/build.yml
+- template: Tailspin.SpaceGame.Web/Templates/build.yml
   parameters:
     buildConfiguration: 'Release'
 
